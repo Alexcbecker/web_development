@@ -1,0 +1,129 @@
+
+html, body {
+	line-height: 1rem;
+	font-size: 100%;
+}
+
+footer, header, main, html, body, input, textarea, .ct-cont, .container, .content  {
+	width: 100%;
+}
+
+html, body, main, .ct-cont, .container, .content {
+	height: 100%;
+}
+
+input[type=checkbox], input[type=radio], .logo {
+	width: 15px;
+	height: 15px;
+}
+
+html, body, main, h1, h2, h3, h4, h5, h6, .reset {
+	margin: 0; 
+	padding: 0;
+}
+
+label {
+	font-weight: normal;
+}
+
+b, strong, .bld {
+	font-weight: bold;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav-tabs, button, input, textarea, button:hover, button:focus, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .nav-tabs > li > a:hover {
+	border: none;
+}
+
+input, textarea, a:focus, a:hover, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+	outline: none;
+}
+
+a, a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+}
+
+.container, .content, a, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { 
+	display: block;
+}
+
+.container, .content{
+	margin: auto;
+	padding: 20px;
+}
+
+main, .container, .content {
+	position: relative;
+}
+
+.hidden {
+	overflow: hidden;
+}
+
+/*style customized*/
+input {
+	height: 40px;
+}
+
+.form {
+	font-size: 12px;
+}
+
+.obrigatory {
+	color: red;
+}
+
+.campo-vazio {
+	border-color: #F00;
+	padding: 2px;
+}
+
+.modal-backdrop {
+	visibility: hidden !important;
+}
+
+.ct {
+	margin: 0 auto;
+	display: block;
+}
+
+.modal-header, .modal-footer {
+	border: none;
+}
+
+.form-group {
+	margin-bottom: 30px;
+}
+
+.btn {
+	border-radius: 30px;
+	border: 1px solid grey;
+	background: #C7FFD8;
+	padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+	border: 1px solid grey;
+}
+
+.form-container {
+	background-color: #13232f;
+	margin-top: 50px
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow-y: scroll;
+	max-height: 90%;
+}
+
+.form label {
+	color: white;
+}
+
+.form-control {
+	background-color: #C7FFD8;
+	color: black;
+}
